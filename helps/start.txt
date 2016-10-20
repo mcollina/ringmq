@@ -1,0 +1,8 @@
+Usage: ringmq start [opts]
+
+Starts RingMQ.
+
+Available options:
+
+  -c/--config FILE       the message topic
+  -b/--base BASE         a base host to connect to

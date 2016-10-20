@@ -1,0 +1,41 @@
+{
+  "name": "ringmq",
+  "version": "0.0.1",
+  "description": "Scalable publish-subscribe broker on a consistent hashring",
+  "main": "ringmq.js",
+  "bin": {
+    "ringmq": "./ringmq"
+  },
+  "scripts": {
+    "test": "standard | snazzy && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/ringmq.git"
+  },
+  "keywords": [
+    "publish",
+    "subscribe",
+    "scale",
+    "hashring"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/ringmq/issues"
+  },
+  "homepage": "https://github.com/mcollina/ringmq#readme",
+  "devDependencies": {
+    "pre-commit": "^1.1.3",
+    "snazzy": "^5.0.0",
+    "standard": "^8.4.0",
+    "tap": "^7.1.2"
+  },
+  "dependencies": {
+    "commist": "^1.0.0",
+    "help-me": "^1.0.1",
+    "mqemitter-cs": "^1.0.1",
+    "server-factory": "^0.1.0",
+    "upring-pubsub": "^0.1.0"
+  }
+}

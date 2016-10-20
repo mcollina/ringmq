@@ -1,0 +1,10 @@
+{
+  "logLevel": "trace",
+  "hashring": {
+    "joinTimeout": 500
+  },
+  "interfaces": [{
+    "protocol": "tcp",
+    "port": 3042
+  }]
+}

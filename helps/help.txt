@@ -1,0 +1,9 @@
+ringmq command line interface, available commands are:
+
+  * start       start ringmq
+  * publish     publish a message to the broker
+  * subscribe   subscribe for updates from the broker
+  * version     the current version of ringmq
+  * help        help about commands
+
+Launch 'ringmq help [command]' to know more about the commands.

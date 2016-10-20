@@ -1,0 +1,9 @@
+Usage: ringmq publish [opts]
+
+Publish a message on RingMQ.
+
+Available options:
+
+  -t/--topic TOPIC      the message topic
+  -m/--message MSG      the message body
+  -p/--port PORT        the broker port

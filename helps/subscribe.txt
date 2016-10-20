@@ -1,0 +1,8 @@
+Usage: ringmq subscribe [opts]
+
+Subscribes to a topic on RingMQ.
+
+Available options:
+
+  -t/--topic TOPIC      the message topic
+  -p/--port PORT        the broker port

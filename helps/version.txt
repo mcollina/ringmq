@@ -1,0 +1,3 @@
+Usage: ringmq version
+
+Prints the version of RingMQ and Node.js.
